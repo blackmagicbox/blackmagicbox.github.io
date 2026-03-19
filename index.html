@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackMagicBox</title>
+    <meta name="description" content="Welcome to BlackMagicBox – where magic happens." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">⬛ BlackMagicBox</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>BlackMagicBox</h1>
+        <p>
+          Welcome to BlackMagicBox — a place where ideas come to life.
+          Explore projects, experiments, and creations.
+        </p>
+        <div class="cta-buttons">
+          <a class="btn btn-primary" href="https://github.com/blackmagicbox" target="_blank" rel="noopener">
+            View GitHub
+          </a>
+          <a class="btn btn-secondary" href="mailto:blackmagicbox@users.noreply.github.com">
+            Get in Touch
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <section class="features">
+      <div class="feature-card">
+        <div class="icon">🚀</div>
+        <h3>Projects</h3>
+        <p>Open-source projects and experiments pushing boundaries.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔮</div>
+        <h3>Innovation</h3>
+        <p>Exploring new ideas and technologies with creative solutions.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🛠️</div>
+        <h3>Tools</h3>
+        <p>Useful tools and utilities built to solve real problems.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> BlackMagicBox &mdash;
+        <a href="https://github.com/blackmagicbox" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
